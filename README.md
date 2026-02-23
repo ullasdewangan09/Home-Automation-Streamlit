@@ -1,9 +1,10 @@
 **Home Automation Streamlit**
-A Streamlit-based home automation simulator that combines:
 
+A Streamlit-based home automation simulator that combines:
 - Formal Language & Automata (DFA-based device transitions)
 - Full Stack concepts (authentication, routing, state management)
 - Computer Networks (protocol simulation, latency, WebSocket monitoring)
+
 Features :
 - Login and registration
 - Device control for Light, Fan, AC, and Door
@@ -15,27 +16,13 @@ Features :
 - Mobile latency monitoring via WebSocket (ws://<host>:8765)
 - Sidebar QR code for opening the app on mobile
 - Custom DFA simulator page
+
 Tech Stack :
 - Python
 - Streamlit
 - Pandas
 - WebSockets (websockets)
 - QR generation (pyqrcode, pypng)
-Project Structure :
-Home Automation Streamlit/
-├── app.py
-├── requirements.txt
-├── backend/
-│   ├── models/
-│   ├── automata/
-│   ├── services/
-│   └── utils/
-└── frontend/
-    ├── auth/
-    ├── pages/
-    ├── components/
-    └── utils/
-
   
 # 🚀 Quick Start
 
